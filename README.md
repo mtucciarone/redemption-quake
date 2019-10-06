@@ -27,3 +27,6 @@ quake-light
 
 # Bugs & Improvements
 Please open issues in this repo, I'd love to get feedback :)
+
+# Thanks
+Big thanks to Shamblernaut for his amazing feedback and guidance throughout my modding journey.
