@@ -1,0 +1,15 @@
+warning: subs.qc:25:SetMovedir: not all control paths return a value
+warning: fight.qc:299:enemy_yaw redeclared
+warning: ai.qc:368:FindTarget must return a value
+warning: ai.qc:588:CheckAnyAttack must return a value
+error: laststand_exp.qc:27:Unknown escape char
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
+error: laststand_exp.qc:27:Unknown punctuation
