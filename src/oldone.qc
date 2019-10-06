@@ -218,7 +218,7 @@ void() finale_4 =
 	}
 	// start the end text
 	WriteByte (MSG_ALL, SVC_FINALE);
-	WriteString (MSG_ALL, "You have used the bending of the\nspacetime Quaketinuum to \nsuccessfully navigate the horrors of \nVanilla Quake.\n\nNow you must move on to master\nthe spacetime Quaketinuum of \nQuake 2.");
+	WriteString (MSG_ALL, "Is this truly real? Will you\nreturn to the beginning of your\njourney only to repeat the\nsteps you previously made\nin an endless cycle of blood,\ndeath, and torment? Will you\nbegin to attempt to complete\nthis quest faster and elegantly\nor give up now and forever\nbe unaware of the unknown?\n\n\n\nThanks for playing Quake Redemption.\nWhether you played through\ncasually or ran it, I appreciate\nthe fact that you gave it the\npatience to get to\n\n\nThe End.\n\n\n\nMod by: tautheory");
 
 // put a player model down
 	n = spawn();
