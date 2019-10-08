@@ -350,7 +350,7 @@ void() ExitIntermission =
 			WriteByte (MSG_ALL, 3);
 
 			WriteByte (MSG_ALL, SVC_FINALE);
-			WriteString (MSG_ALL, "How can you truly define what\ntime and space is when the continuum\nitself is shattering yet restoring\naround you thrice in the present,\n past, and future? There is a\nfast-approaching yet slowed burden\napproaching but also receeding.\n\nWill you extend your hands\ntowards it or will you return\nyour hands back to the place\nthey were once originally?");
+			WriteString (MSG_ALL, "How can you truly define what\ntime and space is when the continuum\nitself is shattering yet restoring\naround you all in the present,\n past, and future? There is a\nfast-approaching yet slowed\nburden arriving but also receeding.\n\nWill you extend your hands\ntowards it or will you return\nyour hands back to the place\nthey were once originally?");
 			return;
 		}
 
@@ -368,7 +368,7 @@ void() ExitIntermission =
 		if ( (serverflags&15) == 15)
 		{
 			WriteByte (MSG_ALL, SVC_FINALE);
-			WriteString (MSG_ALL, "Go forth\nbackwards\nto restore\nshatter\nthe spacetime continuum. It is your destiny\ndownfall\ndoom\nserenity...");
+			WriteString (MSG_ALL, "Go forth\n\nbackwards\n\nto restore\n\nshatter\n\nthe spacetime continuum. It is your destiny\n\ndownfall\n\ndoom\n\nserenity...");
 			return;
 		}
 		
