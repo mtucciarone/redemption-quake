@@ -314,12 +314,12 @@ void() ExitIntermission =
 			if (!cvar("registered"))
 			{
 				WriteByte (MSG_ALL, SVC_FINALE);
-				WriteString (MSG_ALL, "Chthon's death brings you one step\ncloserto bringing the shattered spacetime\ncontinuum back to its original state.\n\nBut beware, as you surge closer to death\nyour chance of damnation increases.");
+				WriteString (MSG_ALL, "You have taken another step\ncloser to bringing the shattered\nspacetime continuum back to its\noriginal state.\n\nBut beware, as you surge closer to\ndeath your chance of damnation\n will only increase.");
 			}
 			else
 			{
 				WriteByte (MSG_ALL, SVC_FINALE);
-				WriteString (MSG_ALL, "Chthon's death brings you one step\ncloserto bringing the shattered spacetime\ncontinuum back to its original state.\n\nBut beware, as you surge closer to death\nyour chance of damnation increases.");
+				WriteString (MSG_ALL, "You have taken another step\ncloser to bringing the shattered\nspacetime continuum back to its\noriginal state.\n\nBut beware, as you surge closer to\ndeath your chance of damnation\n will only increase.");
 			}
 			return;
 		}
@@ -330,7 +330,7 @@ void() ExitIntermission =
 			WriteByte (MSG_ALL, 3);
 
 			WriteByte (MSG_ALL, SVC_FINALE);
-			WriteString (MSG_ALL, "Time spent in the past and time to\nbehold in the future shatter together\nin your mind like crystals shattering\ninto millions of infinite pieces.\n\nIt is unclear of when your journey\nbegan and where it will end.");
+			WriteString (MSG_ALL, "Time spent in the past and time to\nbehold in the future crash together\nin your mind like crystals breaking\ninto millions of infinite pieces.\n\nIt is unclear of when your journey\nbegan and where it will end.");
 			return;
 		}
 		else if (world.model == "maps/e3m6.bsp")
@@ -340,7 +340,7 @@ void() ExitIntermission =
 			WriteByte (MSG_ALL, 3);
 
 			WriteByte (MSG_ALL, SVC_FINALE);
-			WriteString (MSG_ALL, "Each step begins to feel like\na step backwards but you are unsure\nwhether it is happening slower or\nfaster with each breath you take.\n\nInjuries begin to fuel an untapped rage\nwithin the broken realms around you\nbut you know you're arriving\nultimately to the goal at hand.");
+			WriteString (MSG_ALL, "Every step begins to feel like\na step backwards but you are unsure\nwhether it is happening slower or\nfaster with each breath you take.\n\nInjuries begin to fuel an untapped\nrage within the broken realms around\nyou but you know you're arriving\nultimately to the goal at hand.");
 			return;
 		}
 		else if (world.model == "maps/e4m7.bsp")
